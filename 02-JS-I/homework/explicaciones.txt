@@ -1,0 +1,15 @@
+Variable: 
+Es un dato o elemento que se almacena para luego poder ser procesado. Puede modificarse durante la ejecucion del programa a diferencia de las constantes (que no pueden sufrir modificacion). 
+
+Strings: son un tipo de variables que estan formada por uno o mas caractéres puestos entre comilla de apertura y comilla de cierre. Tienen atributos propios como ser la longitud. Se pueden concatenar entre si
+
+Funciones, argumentos returns
+Cuando tenemos codigos que se repiten a lo largo del programa conviene definirlos como funciones, escribirlos una vez y llamarlos cada vez que se necesiten. Se llama a esas funciones pasandoles 0, 1 o mas argumentos los que permitiran desarrollar el codigo interno de la funcion y retornan un valor o no definido con la instruccion return.
+
+Declaraciones if:
+Son declaraciones que sirven para determinar que hacer si sucede una condicion determinada o que hacer en caso contrario.
+Sirven para tomar decisiones y controlar el flujo de la ejecucion  de un programa. 
+
+Variables de tipo boolean:
+Son variables que almacenan dos valores posibles: True o False, (Verdadero o false), 
+Se utilizan para determinar la veracidad o no de determinadas condiciones durante la ejecucion del programa.

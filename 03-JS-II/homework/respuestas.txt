@@ -1,0 +1,26 @@
+For: 
+La declaracion For permite manejar bucles dentro la codificacion. La repeticion se realiza mientras se cumpla cierta condicion dada. Tiene 3 argumentos una variable de control que se inicializa para la iteracion, la condicion que se debe controlar para que se realize el codigo y el incremento de la variable de control.
+El bucle puede entrar en un error que se llama loop infinito, cuando la condicion de control (que me determina el fin del bucle) nunca se alcanza. Esto puede ser por un error en el manejo de la variable de control que no se incrementa o no se decrementa como deberia.
+La declaracion es For (inicio de variable; condicion a controlar; modificacion de la variable){ bloque de codigo }
+
+Operadores Logicos:
+Los operadores logicos sirven para comparar expresiones y dar un valor logico de resultado que puede ser verdadero o falso
+
+&& equivalente al "Y" "AND" devuelve verdadero si las dos expresiones son verdaderas. Si la primera expresion es falsa, se deja de evaluar y el resultado es falso
+
+v && v = v
+f && f = f
+v && f = f
+f && v = f
+
+|| equivale al "O" "OR" devuelve verdadero si cualquiera de las expresiones son verdaderas. Si la primera es verdadera, se deja de evaluar y el resultado es verdadero.
+
+v || v = v
+v || f = v
+f || v = v
+f || f = f
+
+! equivale a "No" "NOT" devuelve el opuesto del valor de verdad de la expresion que afecta.
+
+!v = f
+!f = v

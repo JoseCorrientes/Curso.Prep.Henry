@@ -1,0 +1,11 @@
+Arrays:
+Son arreglos de elementos ordenados, los mismos pueden contener diferentes tipos de elementos: num, String, null, unidentified, booles o Array. Se crean con el Var o Const mas el nombre y los corchetes vacios: var nombre = []
+Tambien podemos crear con contenido, los cuales van separados por comas       var nombre = [elemento1, 'elemento2',....,[elemento n]]
+
+Se pueden acceder a cada uno de los componentes de dichos arreglos a travez de su indice.
+
+variable = nombreArreglo[indice]
+
+el indice en un arreglo comienza con 0 para la primera posicion y n-1 para la ultima (donde n es la cantidad de elementos que tiene).
+
+Existen metodos para agregar elementos o quitarlos de la lista (tanto al final (push() y pop()) como al principio (unshift() o shift()). Se puede saber la longitud de la lista mediante el metodo length. 

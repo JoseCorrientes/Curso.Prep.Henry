@@ -1,0 +1,44 @@
+OBJETOS: 
+Son contenedores de datos , donde los mismos pertenecen a una sola cosa (el objeto). Tienen propiedades y metodos que lo afectan.
+Se instancian llamando const  nombreObjeto = {};
+
+En un ejemplo: Objeto Auto Fiat UNO
+
+const fiatUno = {
+	velocidad: 150,
+	altura: 1.20,
+	acelerar : function(){ bloque de codigo }
+	frenar : function() {bloque de codigo}
+	}
+	
+PROPIEDADES:
+Son atributos de los objetos. Se definen por un par CLAVE-VALOR donde el atributo es llamado por su CLAVE y nos da el VALOR almacenado, el valor puede ser cualquier tipo primitivo, matriz, funcion u objeto
+
+const fiatUno = {
+	velocidad: 150,
+	altura: 1.20,
+	numeroDeAsientos: 4
+	}
+
+METODOS:
+Se llaman asi a las funciones de los objetos. Y permiten modificar los atributos del mismo. Tambien estan definidas por un par CLAVE-VALOR. Se definen en forma similar a lo siguiente:
+
+const fiatUno = {
+	acelerar : function(){ bloque de codigo }
+	frenar : function() {bloque de codigo}
+	}
+
+
+var nombreDeFuncion : function(){ bloque de codigo }
+
+
+
+BUCLS FOR IN:
+Se utilizan para recorre todas las claves (KEYS) que tiene un objeto. Se utiliza la declaracion:
+
+for (let Clave IN Objeto) { bloque de codigo } donde Clave toma el valor de cada una de las keys del objeto (clave de atributo o propiedad)
+
+
+
+NOTACION DE PUNTOS VS. NOTACION DE CORCHETES:
+Se utilizan para referenciar a una key de un objeto. Son similares. Pero por ejemplo cuando pasamos la Key con un nombre de variable no podemos usar el . ya que OBJETO.nombrevariable no existe como propiedad (el nombre de la clave seria lo contenido por la variable). En ese caso se deberia utilizar notacion de corchetes y quedaria OBJETO[nombrevariable]

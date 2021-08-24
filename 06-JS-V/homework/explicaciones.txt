@@ -1,0 +1,7 @@
+PROTOTYPE
+Crear funciones es costoso en recursos computacionales (memoria fundamentalmente). Las clases tienen una propiedad prototype que permite establecer metodos una sola vez y dar acceso a las instancias de esa clase que lo requieran
+
+
+CONSTRUCTORS
+Es una plantilla que nos permite construir muchos objetos de datos  que tiene iguales atributos y metodos, evitando tener que construir objeto por objeto.
+

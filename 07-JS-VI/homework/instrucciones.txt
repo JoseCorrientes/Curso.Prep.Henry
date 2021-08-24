@@ -1,0 +1,9 @@
+Funciones Callbacks
+Se llaman Funciones Callbacks a las funciones que se pasan como argumento a otras funciones.
+
+function suma (x,y) {                     // funcion callback
+	return x+y;
+	}
+
+function llamarOperacion (cb, x,) {      // funcion que usa como argumento la funcion callback, se puede usar la convencion      
+	return cb (x,y)                   // cb donde va el nombre de la funcion callback

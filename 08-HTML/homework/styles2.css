@@ -1,0 +1,57 @@
+.textoPersonal {
+                font-size: 23px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+.Listado        {
+                text-align: left;
+                font-size: 20px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+.TituloRecuadro {
+                margin-top: 0px;
+                margin-bottom: 20px;
+                background-color: lightslategrey;
+                border: 2px solid black
+                }
+
+.TituloPrincipal {
+                margin-top: 0px;
+                margin-bottom: 0px;
+                background-color:black;
+                border: 2px solid black
+                }
+
+.h1modificada   {
+                font-size: 35px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color:lightsteelblue;
+                text-align: center;
+                }
+.Expectativas   {
+                text-align: justify;
+                font-size: 20px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+.cajaFoto       {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color:black;
+    border: 2px solid black
+    }
+
+
+h1  {
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    text-align: center;
+    }
+
+.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10%;        
+        }
+
+
